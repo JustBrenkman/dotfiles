@@ -10,9 +10,6 @@ zstyle :compinstall filename '/home/justb/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-
-export PATH="$HOME/.emacs.d/bin:$PATH"
-export PATH="$PATH:$HOME/repos/flutter-elinux/bin"
 alias ls='ls --color=auto'
 
 eval "$(starship init zsh)"
