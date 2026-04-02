@@ -1,3 +1,1 @@
-vim.lsp.enable({
-    "rust-anaylyzer",
-})
+-- LSP server setup and keymaps are configured in lua/config/plugins/lsp.lua
